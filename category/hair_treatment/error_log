@@ -1,0 +1,53 @@
+[30-Jul-2024 21:38:47 UTC] PHP Warning:  Undefined array key "name" in /home/etisparl/public_html/ahshan.xyz/chat/etis/eti/hair_treatment/save_appointment.php on line 16
+[30-Jul-2024 21:38:47 UTC] PHP Warning:  Undefined array key "phone" in /home/etisparl/public_html/ahshan.xyz/chat/etis/eti/hair_treatment/save_appointment.php on line 17
+[30-Jul-2024 21:38:47 UTC] PHP Warning:  Undefined array key "date" in /home/etisparl/public_html/ahshan.xyz/chat/etis/eti/hair_treatment/save_appointment.php on line 18
+[30-Jul-2024 21:38:47 UTC] PHP Warning:  Undefined array key "time" in /home/etisparl/public_html/ahshan.xyz/chat/etis/eti/hair_treatment/save_appointment.php on line 19
+[30-Jul-2024 22:01:42 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/etisparl/public_html/ahshan.xyz/chat/etis/eti/hair_treatment/save_appointment.php:74
+Stack trace:
+#0 /home/etisparl/public_html/ahshan.xyz/chat/etis/eti/hair_treatment/save_appointment.php(74): mysqli->close()
+#1 {main}
+  thrown in /home/etisparl/public_html/ahshan.xyz/chat/etis/eti/hair_treatment/save_appointment.php on line 74
+[30-Jul-2024 22:02:26 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/etisparl/public_html/ahshan.xyz/chat/etis/eti/hair_treatment/save_appointment.php:74
+Stack trace:
+#0 /home/etisparl/public_html/ahshan.xyz/chat/etis/eti/hair_treatment/save_appointment.php(74): mysqli->close()
+#1 {main}
+  thrown in /home/etisparl/public_html/ahshan.xyz/chat/etis/eti/hair_treatment/save_appointment.php on line 74
+[30-Jul-2024 22:05:56 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/etisparl/public_html/ahshan.xyz/chat/etis/eti/hair_treatment/save_appointment.php:78
+Stack trace:
+#0 /home/etisparl/public_html/ahshan.xyz/chat/etis/eti/hair_treatment/save_appointment.php(78): mysqli->close()
+#1 {main}
+  thrown in /home/etisparl/public_html/ahshan.xyz/chat/etis/eti/hair_treatment/save_appointment.php on line 78
+[30-Jul-2024 22:07:23 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/etisparl/public_html/ahshan.xyz/chat/etis/eti/hair_treatment/save_appointment.php:78
+Stack trace:
+#0 /home/etisparl/public_html/ahshan.xyz/chat/etis/eti/hair_treatment/save_appointment.php(78): mysqli->close()
+#1 {main}
+  thrown in /home/etisparl/public_html/ahshan.xyz/chat/etis/eti/hair_treatment/save_appointment.php on line 78
+[30-Jul-2024 22:08:16 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/etisparl/public_html/ahshan.xyz/chat/etis/eti/hair_treatment/save_appointment.php:78
+Stack trace:
+#0 /home/etisparl/public_html/ahshan.xyz/chat/etis/eti/hair_treatment/save_appointment.php(78): mysqli->close()
+#1 {main}
+  thrown in /home/etisparl/public_html/ahshan.xyz/chat/etis/eti/hair_treatment/save_appointment.php on line 78
+[30-Jul-2024 22:09:07 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/etisparl/public_html/ahshan.xyz/chat/etis/eti/hair_treatment/save_appointment.php:78
+Stack trace:
+#0 /home/etisparl/public_html/ahshan.xyz/chat/etis/eti/hair_treatment/save_appointment.php(78): mysqli->close()
+#1 {main}
+  thrown in /home/etisparl/public_html/ahshan.xyz/chat/etis/eti/hair_treatment/save_appointment.php on line 78
+[30-Jul-2024 22:12:00 UTC] PHP Warning:  Undefined array key "name" in /home/etisparl/public_html/ahshan.xyz/chat/etis/eti/hair_treatment/save_appointment.php on line 16
+[30-Jul-2024 22:12:00 UTC] PHP Warning:  Undefined array key "phone" in /home/etisparl/public_html/ahshan.xyz/chat/etis/eti/hair_treatment/save_appointment.php on line 17
+[30-Jul-2024 22:12:00 UTC] PHP Warning:  Undefined array key "date" in /home/etisparl/public_html/ahshan.xyz/chat/etis/eti/hair_treatment/save_appointment.php on line 18
+[30-Jul-2024 22:12:00 UTC] PHP Warning:  Undefined array key "time" in /home/etisparl/public_html/ahshan.xyz/chat/etis/eti/hair_treatment/save_appointment.php on line 19
+[30-Jul-2024 22:13:17 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/etisparl/public_html/ahshan.xyz/chat/etis/eti/hair_treatment/save_appointment.php:77
+Stack trace:
+#0 /home/etisparl/public_html/ahshan.xyz/chat/etis/eti/hair_treatment/save_appointment.php(77): mysqli->close()
+#1 {main}
+  thrown in /home/etisparl/public_html/ahshan.xyz/chat/etis/eti/hair_treatment/save_appointment.php on line 77
+[30-Jul-2024 22:14:12 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/etisparl/public_html/ahshan.xyz/chat/etis/eti/hair_treatment/save_appointment.php:77
+Stack trace:
+#0 /home/etisparl/public_html/ahshan.xyz/chat/etis/eti/hair_treatment/save_appointment.php(77): mysqli->close()
+#1 {main}
+  thrown in /home/etisparl/public_html/ahshan.xyz/chat/etis/eti/hair_treatment/save_appointment.php on line 77
+[30-Jul-2024 22:15:24 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/etisparl/public_html/ahshan.xyz/chat/etis/eti/hair_treatment/save_appointment.php:77
+Stack trace:
+#0 /home/etisparl/public_html/ahshan.xyz/chat/etis/eti/hair_treatment/save_appointment.php(77): mysqli->close()
+#1 {main}
+  thrown in /home/etisparl/public_html/ahshan.xyz/chat/etis/eti/hair_treatment/save_appointment.php on line 77

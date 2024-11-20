@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KBLK9W6W');</script>
+<!-- End Google Tag Manager -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hair Length Price Calculator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="pc.css">
+<link rel="stylesheet" href="mobile.css">
+<link rel="stylesheet" href="anim.css">
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KBLK9W6W"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div class="header_contaginer">
+    <div class="header_container">
+        <div class="header" onclick="goBack()">
+            <a href="#">
+                <img src="https://img.icons8.com/ios-filled/50/000000/left.png" alt="Back" width="20" height="20">
+                Back
+            </a>
+        </div>
+        <h1>Hair Length Price Calculator</h1>
+        <div class="image-slider-wrapper">
+            <div class="image-slider-container">
+            
+                <div class="image-overlay">
+                
+                    <img src="hair.jpg" alt="Hair with Scale" id="hairImage">
+                    <div class="block-overlay" id="blockOverlay"></div>
+                    <div class="horizontal-line" id="line1"></div>
+                    <div class="horizontal-line" id="line2"></div>
+                    <div class="horizontal-line" id="line3"></div>
+                    <div class="horizontal-line" id="line4"></div>
+                   
+                </div>
+                
+            </div>
+            
+            <div class="slider-wrapper">
+            
+                <div class="slider-labels">
+                    <div data-step="1">1</div>
+                    <div data-step="2">2</div>
+                    <div data-step="3">3</div>
+                    <div data-step="4">4</div>
+                    
+                </div>
+                <div class="slider-container">
+                    <input type="range" id="overlaySlider" min="0" max="3" step="1" value="0">
+                    
+                </div>
+               
+            </div>
+        </div>
+        <p>Selected Length: <span id="length">1</span> </p>
+
+        <p>Approximate Price: <span id="price">6600</span>Tk</p>
+        
+            <button class="button_header" id="submitButton"><b>Submit Button</b></button>
+        
+
+
+    </div>
+    </div>
+    <div id="loadingOverlay"></div>
+    <div id="loadingSpinner"></div>
+    <script>
+        document.getElementById('overlaySlider').addEventListener('input', function () {
+            var sliderValue = this.value;
+            var sliderValue1 = parseInt(this.value, 10); // Convert the slider value to an integer
+            const sum = sliderValue1 + 1;
+            var blockOverlay = document.getElementById('blockOverlay');
+
+            var heights;
+            if (window.innerWidth <= 900) {
+                // Mobile version
+                heights = ['0px', '90px', '180px', '270px'];
+            } else {
+                // PC version
+                heights = ['0px', '121px', '242px', '364px'];
+            }
+            blockOverlay.style.height = heights[sliderValue];
+
+            // Update selected length and price
+            document.getElementById('length').textContent = sum;
+            document.getElementById('price').textContent = 6600 + (sliderValue * 1000); // Example calculation
+
+
+        });
+
+    </script>
+    <script>
+        // Function to hide the loading spinner
+        function hideLoadingSpinner() {
+            document.getElementById('loadingSpinner').style.display = 'none';
+            document.getElementById('loadingOverlay').style.display = 'none';
+        }
+
+        document.getElementById('submitButton').addEventListener('click', function () {
+            // Get the values
+            var selectedLength = document.getElementById('length').innerText;
+            var approximatePrice = document.getElementById('price').innerText;
+
+            // Save to local storage
+            localStorage.setItem('selectedLength', selectedLength);
+            localStorage.setItem('approximatePrice', approximatePrice);
+// Show the loading spinner
+document.getElementById('loadingSpinner').style.display = 'block';
+document.getElementById('loadingOverlay').style.display = 'block';
+setTimeout(function() {
+                window.location.href = 'https://etisparlour.com/checkout/?service=Hair_Treatment'; // Replace with your desired URL
+            }, 1000);
+            
+        });
+
+        window.onload = function() {
+            
+            hideLoadingSpinner();
+        };
+        window.onpageshow = hideLoadingSpinner;
+
+
+    </script>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+
+</html>

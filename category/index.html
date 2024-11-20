@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categories</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 100%;
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            transform: scale(0.9); /* Adjust the scale value as needed */
+            transform-origin: top center;
+            align-items: center;
+            
+        }
+        .small-header {
+            margin-top: 10px;
+            margin-bottom: 20px;
+            font-size: 14px;
+            font-weight: 600;
+            color: #333;
+            text-align: center;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            background-color: #fff;
+            border: 2px solid #6a0dad;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .header a {
+            display: flex;
+            align-items: center;
+            color: #6a0dad;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .header a img {
+            margin-right: 10px;
+        }
+        .category {
+            position: relative;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            overflow: hidden;
+            height: 150px; /* Adjust the height as needed */
+        }
+        .category img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+
+        }
+        .category-title {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 18px; /* Increase font size */
+            font-weight: 700; /* Increase font weight */
+        }
+        @media (max-width: 900px) {
+            .container {
+                margin-left: -20px;
+            }
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header" onclick="goBack()">
+        <a href="#" >
+            <img src="https://img.icons8.com/ios-filled/50/000000/left.png" alt="Back" width="20" height="20">
+            Categories
+        </a>
+    </div>
+    <div class="small-header">
+        Which treatment are you here for?
+    </div>
+    <div class="category">
+        <a href="hair_treatment/" >
+        <img src="category_assets/hair_treatment.jpg" alt="Cooking">
+        <div class="category-title">Hair Treatment </div>
+        </a>
+    </div>
+    
+    <div class="category">
+        <a href="hair_color/" >
+        <img src="category_assets/high-angle-woman-hair-salon.jpg" alt="Traveling">
+        <div class="category-title">Hair Color </div>
+    </a>
+    </div>
+
+    <div class="category cat">
+        <a href="Hydrafacial/" >
+        <img src="category_assets/ezgif-7-702363e3da.jpg" alt="Arts">
+        <div class="category-title">Hydrafacial </div>
+        </a>
+    </div>
+
+    
+</div>
+
+<script>
+    function goBack() {
+        window.history.back();
+    }
+</script>
+</body>
+</html>

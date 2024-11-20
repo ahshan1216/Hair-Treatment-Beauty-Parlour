@@ -1,0 +1,122 @@
+[30-Jul-2024 23:48:13 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'services' cannot be null in /home/etisparl/public_html/checkout/save_appointment.php:29
+Stack trace:
+#0 /home/etisparl/public_html/checkout/save_appointment.php(29): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/etisparl/public_html/checkout/save_appointment.php on line 29
+[30-Jul-2024 23:48:57 UTC] PHP Warning:  Undefined array key "name" in /home/etisparl/public_html/checkout/save_appointment.php on line 16
+[30-Jul-2024 23:48:57 UTC] PHP Warning:  Undefined array key "phone" in /home/etisparl/public_html/checkout/save_appointment.php on line 17
+[30-Jul-2024 23:48:57 UTC] PHP Warning:  Undefined array key "date" in /home/etisparl/public_html/checkout/save_appointment.php on line 18
+[30-Jul-2024 23:48:57 UTC] PHP Warning:  Undefined array key "time" in /home/etisparl/public_html/checkout/save_appointment.php on line 19
+[30-Jul-2024 23:48:57 UTC] PHP Warning:  Undefined array key "service" in /home/etisparl/public_html/checkout/save_appointment.php on line 20
+[30-Jul-2024 23:48:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'services' cannot be null in /home/etisparl/public_html/checkout/save_appointment.php:29
+Stack trace:
+#0 /home/etisparl/public_html/checkout/save_appointment.php(29): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/etisparl/public_html/checkout/save_appointment.php on line 29
+[31-Jul-2024 00:03:14 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/etisparl/public_html/checkout/save_appointment.php:78
+Stack trace:
+#0 /home/etisparl/public_html/checkout/save_appointment.php(78): mysqli->close()
+#1 {main}
+  thrown in /home/etisparl/public_html/checkout/save_appointment.php on line 78
+[31-Jul-2024 00:21:15 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/etisparl/public_html/checkout/save_appointment.php:78
+Stack trace:
+#0 /home/etisparl/public_html/checkout/save_appointment.php(78): mysqli->close()
+#1 {main}
+  thrown in /home/etisparl/public_html/checkout/save_appointment.php on line 78
+[01-Aug-2024 19:09:42 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/etisparl/public_html/checkout/save_appointment.php:78
+Stack trace:
+#0 /home/etisparl/public_html/checkout/save_appointment.php(78): mysqli->close()
+#1 {main}
+  thrown in /home/etisparl/public_html/checkout/save_appointment.php on line 78
+[01-Aug-2024 19:10:56 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/etisparl/public_html/checkout/save_appointment.php:78
+Stack trace:
+#0 /home/etisparl/public_html/checkout/save_appointment.php(78): mysqli->close()
+#1 {main}
+  thrown in /home/etisparl/public_html/checkout/save_appointment.php on line 78
+[13-Aug-2024 08:10:00 UTC] PHP Notice:  Undefined index: name in /home/etisparl/public_html/checkout/save_appointment.php on line 16
+[13-Aug-2024 08:10:00 UTC] PHP Notice:  Undefined index: phone in /home/etisparl/public_html/checkout/save_appointment.php on line 17
+[13-Aug-2024 08:10:00 UTC] PHP Notice:  Undefined index: date in /home/etisparl/public_html/checkout/save_appointment.php on line 18
+[13-Aug-2024 08:10:00 UTC] PHP Notice:  Undefined index: time in /home/etisparl/public_html/checkout/save_appointment.php on line 19
+[13-Aug-2024 08:10:00 UTC] PHP Notice:  Undefined index: service in /home/etisparl/public_html/checkout/save_appointment.php on line 20
+[30-Aug-2024 13:27:04 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/etisparl/public_html/checkout/save_appointment.php on line 78
+[06-Sep-2024 03:39:25 UTC] PHP Notice:  Undefined index: name in /home/etisparl/public_html/checkout/save_appointment.php on line 16
+[06-Sep-2024 03:39:25 UTC] PHP Notice:  Undefined index: phone in /home/etisparl/public_html/checkout/save_appointment.php on line 17
+[06-Sep-2024 03:39:25 UTC] PHP Notice:  Undefined index: date in /home/etisparl/public_html/checkout/save_appointment.php on line 18
+[06-Sep-2024 03:39:25 UTC] PHP Notice:  Undefined index: time in /home/etisparl/public_html/checkout/save_appointment.php on line 19
+[06-Sep-2024 03:39:25 UTC] PHP Notice:  Undefined index: service in /home/etisparl/public_html/checkout/save_appointment.php on line 20
+[16-Sep-2024 09:37:54 UTC] PHP Notice:  Undefined index: name in /home/etisparl/public_html/checkout/save_appointment.php on line 16
+[16-Sep-2024 09:37:54 UTC] PHP Notice:  Undefined index: phone in /home/etisparl/public_html/checkout/save_appointment.php on line 17
+[16-Sep-2024 09:37:54 UTC] PHP Notice:  Undefined index: date in /home/etisparl/public_html/checkout/save_appointment.php on line 18
+[16-Sep-2024 09:37:54 UTC] PHP Notice:  Undefined index: time in /home/etisparl/public_html/checkout/save_appointment.php on line 19
+[16-Sep-2024 09:37:54 UTC] PHP Notice:  Undefined index: service in /home/etisparl/public_html/checkout/save_appointment.php on line 20
+[26-Sep-2024 16:16:15 UTC] PHP Notice:  Undefined index: name in /home/etisparl/public_html/checkout/save_appointment.php on line 16
+[26-Sep-2024 16:16:15 UTC] PHP Notice:  Undefined index: phone in /home/etisparl/public_html/checkout/save_appointment.php on line 17
+[26-Sep-2024 16:16:15 UTC] PHP Notice:  Undefined index: date in /home/etisparl/public_html/checkout/save_appointment.php on line 18
+[26-Sep-2024 16:16:15 UTC] PHP Notice:  Undefined index: time in /home/etisparl/public_html/checkout/save_appointment.php on line 19
+[26-Sep-2024 16:16:15 UTC] PHP Notice:  Undefined index: service in /home/etisparl/public_html/checkout/save_appointment.php on line 20
+[05-Oct-2024 06:50:25 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/etisparl/public_html/checkout/save_appointment.php on line 78
+[06-Oct-2024 05:17:01 UTC] PHP Notice:  Undefined index: name in /home/etisparl/public_html/checkout/save_appointment.php on line 16
+[06-Oct-2024 05:17:01 UTC] PHP Notice:  Undefined index: phone in /home/etisparl/public_html/checkout/save_appointment.php on line 17
+[06-Oct-2024 05:17:01 UTC] PHP Notice:  Undefined index: date in /home/etisparl/public_html/checkout/save_appointment.php on line 18
+[06-Oct-2024 05:17:01 UTC] PHP Notice:  Undefined index: time in /home/etisparl/public_html/checkout/save_appointment.php on line 19
+[06-Oct-2024 05:17:01 UTC] PHP Notice:  Undefined index: service in /home/etisparl/public_html/checkout/save_appointment.php on line 20
+[09-Oct-2024 09:35:08 UTC] PHP Notice:  Undefined index: name in /home/etisparl/public_html/checkout/save_appointment.php on line 16
+[09-Oct-2024 09:35:08 UTC] PHP Notice:  Undefined index: phone in /home/etisparl/public_html/checkout/save_appointment.php on line 17
+[09-Oct-2024 09:35:08 UTC] PHP Notice:  Undefined index: date in /home/etisparl/public_html/checkout/save_appointment.php on line 18
+[09-Oct-2024 09:35:08 UTC] PHP Notice:  Undefined index: time in /home/etisparl/public_html/checkout/save_appointment.php on line 19
+[09-Oct-2024 09:35:08 UTC] PHP Notice:  Undefined index: service in /home/etisparl/public_html/checkout/save_appointment.php on line 20
+[09-Oct-2024 09:35:09 UTC] PHP Notice:  Undefined index: name in /home/etisparl/public_html/checkout/save_appointment.php on line 16
+[09-Oct-2024 09:35:09 UTC] PHP Notice:  Undefined index: phone in /home/etisparl/public_html/checkout/save_appointment.php on line 17
+[09-Oct-2024 09:35:09 UTC] PHP Notice:  Undefined index: date in /home/etisparl/public_html/checkout/save_appointment.php on line 18
+[09-Oct-2024 09:35:09 UTC] PHP Notice:  Undefined index: time in /home/etisparl/public_html/checkout/save_appointment.php on line 19
+[09-Oct-2024 09:35:09 UTC] PHP Notice:  Undefined index: service in /home/etisparl/public_html/checkout/save_appointment.php on line 20
+[09-Oct-2024 09:35:09 UTC] PHP Notice:  Undefined index: name in /home/etisparl/public_html/checkout/save_appointment.php on line 16
+[09-Oct-2024 09:35:09 UTC] PHP Notice:  Undefined index: phone in /home/etisparl/public_html/checkout/save_appointment.php on line 17
+[09-Oct-2024 09:35:09 UTC] PHP Notice:  Undefined index: date in /home/etisparl/public_html/checkout/save_appointment.php on line 18
+[09-Oct-2024 09:35:09 UTC] PHP Notice:  Undefined index: time in /home/etisparl/public_html/checkout/save_appointment.php on line 19
+[09-Oct-2024 09:35:09 UTC] PHP Notice:  Undefined index: service in /home/etisparl/public_html/checkout/save_appointment.php on line 20
+[09-Oct-2024 09:35:20 UTC] PHP Notice:  Undefined index: name in /home/etisparl/public_html/checkout/save_appointment.php on line 16
+[09-Oct-2024 09:35:20 UTC] PHP Notice:  Undefined index: phone in /home/etisparl/public_html/checkout/save_appointment.php on line 17
+[09-Oct-2024 09:35:20 UTC] PHP Notice:  Undefined index: date in /home/etisparl/public_html/checkout/save_appointment.php on line 18
+[09-Oct-2024 09:35:20 UTC] PHP Notice:  Undefined index: time in /home/etisparl/public_html/checkout/save_appointment.php on line 19
+[09-Oct-2024 09:35:20 UTC] PHP Notice:  Undefined index: service in /home/etisparl/public_html/checkout/save_appointment.php on line 20
+[15-Oct-2024 05:51:15 UTC] PHP Notice:  Undefined index: name in /home/etisparl/public_html/checkout/save_appointment.php on line 16
+[15-Oct-2024 05:51:15 UTC] PHP Notice:  Undefined index: phone in /home/etisparl/public_html/checkout/save_appointment.php on line 17
+[15-Oct-2024 05:51:15 UTC] PHP Notice:  Undefined index: date in /home/etisparl/public_html/checkout/save_appointment.php on line 18
+[15-Oct-2024 05:51:15 UTC] PHP Notice:  Undefined index: time in /home/etisparl/public_html/checkout/save_appointment.php on line 19
+[15-Oct-2024 05:51:15 UTC] PHP Notice:  Undefined index: service in /home/etisparl/public_html/checkout/save_appointment.php on line 20
+[17-Oct-2024 10:43:03 UTC] PHP Notice:  Undefined index: name in /home/etisparl/public_html/checkout/save_appointment.php on line 16
+[17-Oct-2024 10:43:03 UTC] PHP Notice:  Undefined index: phone in /home/etisparl/public_html/checkout/save_appointment.php on line 17
+[17-Oct-2024 10:43:03 UTC] PHP Notice:  Undefined index: date in /home/etisparl/public_html/checkout/save_appointment.php on line 18
+[17-Oct-2024 10:43:03 UTC] PHP Notice:  Undefined index: time in /home/etisparl/public_html/checkout/save_appointment.php on line 19
+[17-Oct-2024 10:43:03 UTC] PHP Notice:  Undefined index: service in /home/etisparl/public_html/checkout/save_appointment.php on line 20
+[24-Oct-2024 00:42:49 UTC] PHP Notice:  Undefined index: name in /home/etisparl/public_html/checkout/save_appointment.php on line 16
+[24-Oct-2024 00:42:49 UTC] PHP Notice:  Undefined index: phone in /home/etisparl/public_html/checkout/save_appointment.php on line 17
+[24-Oct-2024 00:42:49 UTC] PHP Notice:  Undefined index: date in /home/etisparl/public_html/checkout/save_appointment.php on line 18
+[24-Oct-2024 00:42:49 UTC] PHP Notice:  Undefined index: time in /home/etisparl/public_html/checkout/save_appointment.php on line 19
+[24-Oct-2024 00:42:49 UTC] PHP Notice:  Undefined index: service in /home/etisparl/public_html/checkout/save_appointment.php on line 20
+[30-Oct-2024 12:42:20 UTC] PHP Notice:  Undefined index: name in /home/etisparl/public_html/checkout/save_appointment.php on line 16
+[30-Oct-2024 12:42:20 UTC] PHP Notice:  Undefined index: phone in /home/etisparl/public_html/checkout/save_appointment.php on line 17
+[30-Oct-2024 12:42:20 UTC] PHP Notice:  Undefined index: date in /home/etisparl/public_html/checkout/save_appointment.php on line 18
+[30-Oct-2024 12:42:20 UTC] PHP Notice:  Undefined index: time in /home/etisparl/public_html/checkout/save_appointment.php on line 19
+[30-Oct-2024 12:42:20 UTC] PHP Notice:  Undefined index: service in /home/etisparl/public_html/checkout/save_appointment.php on line 20
+[01-Nov-2024 23:58:37 UTC] PHP Notice:  Undefined index: name in /home/etisparl/public_html/checkout/save_appointment.php on line 16
+[01-Nov-2024 23:58:37 UTC] PHP Notice:  Undefined index: phone in /home/etisparl/public_html/checkout/save_appointment.php on line 17
+[01-Nov-2024 23:58:37 UTC] PHP Notice:  Undefined index: date in /home/etisparl/public_html/checkout/save_appointment.php on line 18
+[01-Nov-2024 23:58:37 UTC] PHP Notice:  Undefined index: time in /home/etisparl/public_html/checkout/save_appointment.php on line 19
+[01-Nov-2024 23:58:37 UTC] PHP Notice:  Undefined index: service in /home/etisparl/public_html/checkout/save_appointment.php on line 20
+[02-Nov-2024 12:51:30 UTC] PHP Notice:  Undefined index: name in /home/etisparl/public_html/checkout/save_appointment.php on line 16
+[02-Nov-2024 12:51:30 UTC] PHP Notice:  Undefined index: phone in /home/etisparl/public_html/checkout/save_appointment.php on line 17
+[02-Nov-2024 12:51:30 UTC] PHP Notice:  Undefined index: date in /home/etisparl/public_html/checkout/save_appointment.php on line 18
+[02-Nov-2024 12:51:30 UTC] PHP Notice:  Undefined index: time in /home/etisparl/public_html/checkout/save_appointment.php on line 19
+[02-Nov-2024 12:51:30 UTC] PHP Notice:  Undefined index: service in /home/etisparl/public_html/checkout/save_appointment.php on line 20
+[10-Nov-2024 21:25:46 UTC] PHP Notice:  Undefined index: name in /home/etisparl/public_html/checkout/save_appointment.php on line 16
+[10-Nov-2024 21:25:46 UTC] PHP Notice:  Undefined index: phone in /home/etisparl/public_html/checkout/save_appointment.php on line 17
+[10-Nov-2024 21:25:46 UTC] PHP Notice:  Undefined index: date in /home/etisparl/public_html/checkout/save_appointment.php on line 18
+[10-Nov-2024 21:25:46 UTC] PHP Notice:  Undefined index: time in /home/etisparl/public_html/checkout/save_appointment.php on line 19
+[10-Nov-2024 21:25:46 UTC] PHP Notice:  Undefined index: service in /home/etisparl/public_html/checkout/save_appointment.php on line 20
+[19-Nov-2024 19:35:59 UTC] PHP Notice:  Undefined index: name in /home/etisparl/public_html/checkout/save_appointment.php on line 16
+[19-Nov-2024 19:35:59 UTC] PHP Notice:  Undefined index: phone in /home/etisparl/public_html/checkout/save_appointment.php on line 17
+[19-Nov-2024 19:35:59 UTC] PHP Notice:  Undefined index: date in /home/etisparl/public_html/checkout/save_appointment.php on line 18
+[19-Nov-2024 19:35:59 UTC] PHP Notice:  Undefined index: time in /home/etisparl/public_html/checkout/save_appointment.php on line 19
+[19-Nov-2024 19:35:59 UTC] PHP Notice:  Undefined index: service in /home/etisparl/public_html/checkout/save_appointment.php on line 20

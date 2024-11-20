@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultation Appointment</title>
+    <style>
+        /* styles.css */
+
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.consultation-section {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    border: 2px solid pink; /* Pink outline border */
+}
+
+.consultation-message {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.consultation-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.consultation-button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+    .consultation-section {
+        margin: 20px;
+        padding: 15px;
+    }
+
+    .consultation-message {
+        font-size: 14px;
+    }
+
+    .consultation-button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <div class="consultation-section">
+        <p class="consultation-message">
+            There are many hair color variants, making it difficult to automatically provide an accurate cost estimate. Please consult with our team for precise pricing. To schedule a consultation appointment, click the button below.
+        </p>
+        <button class="consultation-button" onclick="redirectToConsultation()">Schedule Consultation</button>
+    </div>
+
+    <script>
+        function redirectToConsultation() {
+            window.location.href = "https://etisparlour.com/checkout/?service=Hair_color"; // Replace with the URL of the consultation website
+        }
+    </script>
+</body>
+</html>

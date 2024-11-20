@@ -1,0 +1,87 @@
+/* Media queries for smaller screens */
+@media (max-width: 900px) {
+
+    #line1 {
+        top: 190px;
+    }
+
+    #line2 {
+        top: 280px;
+    }
+
+    #line3 {
+        top: 370px;
+    }
+
+    #line4 {
+        top: 460px;
+    }
+
+    .container {
+        width: 90%;
+        /* Adjust the container width for smaller screens */
+    }
+
+    .image-slider-wrapper {
+        flex-direction: row;
+        /* Keep row layout on smaller screens */
+        width: 370px;
+    }
+
+    .image-slider-container {
+        width: 70%;
+    }
+
+    .slider-wrapper {
+        width: 30%;
+        margin-top: 192px;
+        /* Remove top margin */
+    }
+
+    .slider-container {
+        width: 100%;
+        /* Full width for horizontal slider on smaller screens */
+    }
+
+    #overlaySlider {
+        width: 20px;
+        /* Full width for vertical slider on smaller screens */
+        height: 287px;
+        writing-mode: bt-lr;
+        /* Keep vertical slider */
+        transform: rotate(180deg);
+        /* Rotate the slider */
+    }
+
+    .block-overlay {
+        top: 190px;
+    }
+
+    .slider-labels {
+        flex-direction: column;
+        width: auto;
+        /* Match slider width */
+        height: 290px;
+        /* Adjust height */
+        top: 0px;
+        /* Adjust top position */
+        margin-left: -30px;
+        /* Adjust margin-left */
+    }
+    .header_container {
+        width: 90%;
+    }
+
+}
+
+
+
+@media (max-width: 480px) {
+    .container {
+        width: 100%;
+        /* Full width for very small screens */
+        
+    }
+    
+
+}
